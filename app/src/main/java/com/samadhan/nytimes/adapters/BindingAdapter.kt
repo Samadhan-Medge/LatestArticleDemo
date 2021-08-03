@@ -7,7 +7,7 @@ import com.squareup.picasso.Picasso
 
 object BindingAdapter {
 
-    @BindingAdapter
+    @BindingAdapter(value=["articleImage"], requireAll = false)
     @JvmStatic
     fun loadArticleImage(imageView: AppCompatImageView, results: Results?) {
         if (results != null) {
