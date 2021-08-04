@@ -12,6 +12,7 @@
         android:theme="@style/Theme.NYTimes">
         <activity
             android:name=".view.MainActivity"
+            android:label="@string/main_screen_title"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
